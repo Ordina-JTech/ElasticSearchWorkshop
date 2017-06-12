@@ -1,10 +1,8 @@
 ElasticSearchWorkshop
-===================
+=====================
 
-[TOC]
-
-1) Installatie stappenplan
-===================
+Installatie stappenplan
+==========================
 
  1.  Download de binaries op: https://www.elastic.co/products
 	 1. Elasticsearch
@@ -12,7 +10,7 @@ ElasticSearchWorkshop
  2.  Configuren elastic-search en kibana
 	 1. Vervang de config bestanden in de mappen kibana/config en elasticsearch/config met de config bestanden uit de git repository.
 
-2) Mappings aanmaken
+Mappings aanmaken
 ====================
 
 Mapping voor Shakespeare dataset
@@ -92,7 +90,7 @@ curl -XPUT 'localhost:9200/logstash-2015.05.20?pretty' -H 'Content-Type: applica
 '
 ```
 
-3) Indexen vullen
+Indexen vullen
 ============
 ```
 curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/bank/account/_bulk?pretty' --data-binary @accounts.json
