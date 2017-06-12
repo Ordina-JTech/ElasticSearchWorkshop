@@ -1,20 +1,18 @@
 ElasticSearchWorkshop
 ===================
 
-Installatie stappenplan
+[TOC]
+
+1) Installatie stappenplan
 ===================
 
  1.  Download de binaries op: https://www.elastic.co/products
 	 1. Elasticsearch
 	 2. Kibana
- 2. (Optioneel) Installeren X-Pack plugins voor security
-	 1. bin/elastic-plugin install x-pack
-		 1. *Vraagt tijdens de installatie om premissies
-	 2. bin/kibana-plugin install x-pack
- 3.  Configuren elastic-search en kibana
+ 2.  Configuren elastic-search en kibana
 	 1. Vervang de config bestanden in de mappen kibana/config en elasticsearch/config met de config bestanden uit de git repository.
 
-Mappings aanmaken
+2) Mappings aanmaken
 ====================
 
 Mapping voor Shakespeare dataset
@@ -94,7 +92,7 @@ curl -XPUT 'localhost:9200/logstash-2015.05.20?pretty' -H 'Content-Type: applica
 '
 ```
 
-Indexen vullen
+3) Indexen vullen
 ============
 ```
 curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/bank/account/_bulk?pretty' --data-binary @accounts.json
@@ -109,3 +107,17 @@ Informatie over de net gevulde indexen
 ```
 curl -XGET 'localhost:9200/_cat/indices?v&pretty'
 ```
+
+X-PACK (Optioneel)
+======
+```
+Wanneer x-pack geïnstalleerd is werk ElasticHQ niet meer.
+```
+
+ Installeren X-Pack plugins voor security
+	 1. bin/elastic-plugin install x-pack
+		 1. *Vraagt tijdens de installatie om premissies
+	 2. bin/kibana-plugin install x-pack
+
+user: elastic
+password: changeme
