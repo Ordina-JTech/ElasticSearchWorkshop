@@ -1,0 +1,1 @@
+Binnen elasticsearch is het mogelijk om query te sorteren. Schrijf de query uit opdracht 1 zo om dat er een veld gesorteerd wordt.

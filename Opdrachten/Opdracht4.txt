@@ -1,0 +1,1 @@
+Schrijf een aggregratie om te bepalen hoe vaak welke "speaker" voor komt in een document.

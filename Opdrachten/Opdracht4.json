@@ -1,0 +1,10 @@
+{
+    "size": 0,
+    "aggs": {
+        "speaker cpunt": {
+            "terms": {
+                "field": "speaker"
+            }
+        }
+    }
+}

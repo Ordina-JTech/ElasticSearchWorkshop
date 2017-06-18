@@ -1,0 +1,1 @@
+Schrijf met behulp van de "fuzzy" operator een query die fuzzy zoekt op het veld "text_entry"

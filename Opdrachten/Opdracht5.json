@@ -1,0 +1,10 @@
+{
+    "query": {
+        "match": {
+            "text_entry": "to be or not"
+        }
+    },
+    "sort": {
+        "play_name": "asc"
+    }
+}

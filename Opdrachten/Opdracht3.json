@@ -1,0 +1,7 @@
+{
+    "query": {
+        "fuzzy": {
+            "text_entry": "thrift"
+        }
+    }
+}

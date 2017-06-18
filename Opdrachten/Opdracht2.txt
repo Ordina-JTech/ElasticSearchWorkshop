@@ -1,0 +1,1 @@
+Schrijf een query die met behulp van de "term" operator op het veld "speaker" zoekt.

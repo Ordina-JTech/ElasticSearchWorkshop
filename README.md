@@ -106,6 +106,15 @@ Informatie over de net gevulde indexen
 curl -XGET 'localhost:9200/_cat/indices?v&pretty'
 ```
 
+Query documentatie
+==================
+
+https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html
+
+Opdrachten
+===========
+In de folder Opdrachten staan enkele opdrachten om je op weg te helpen met het schrijven van queries. De tekstbestanden bevatten de opdrachten en de Json bestanden de oplossingen.
+
 X-PACK (Optioneel)
 ======
 ```

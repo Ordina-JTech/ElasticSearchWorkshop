@@ -1,0 +1,1 @@
+Schrijf een query die met behulp van de "match" operator op het veld "text_entry" zoekt.
