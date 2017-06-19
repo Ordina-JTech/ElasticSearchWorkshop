@@ -115,6 +115,10 @@ Opdrachten
 ===========
 In de folder Opdrachten staan enkele opdrachten om je op weg te helpen met het schrijven van queries. De tekstbestanden bevatten de opdrachten en de Json bestanden de oplossingen.
 
+Kibana url
+==========
+http://localhost:5601
+
 X-PACK (Optioneel)
 ======
 ```
